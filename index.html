@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>JavaScript Labs</title>
+  </head>
+  <body>
+    <p>here be dragons</p>
+
+    <script type="text/javascript">
+      console.log("Hello cset-110");
+      
+      /* Add: return the sum of two numbers */
+      function add(x, y) {
+        return x + y;
+      }
+
+      /* Subtract: return the difference of two numbers */
+      function subtract(x, y) {
+        return x - y;
+      }
+
+      /* Multiply: return the product of two numbers */
+      function multiply(x, y) {
+        return x * y;
+      }
+
+      /* Divide: return the quotient of two numbers */
+      function divide(x, y) {
+        return x / y;
+      }
+
+      /* Modulo: return the remainder of dividing two numbers */
+      function modulo(x, y) {
+        return x % y;
+      }
+
+      /* GreetPrompt: return a greeting with users name from prompt */
+      function greetPrompt() {
+        let userName = prompt("What's your name?");
+        return greetUser(userName);
+      }
+      /* GreetUser: return a greeting with users name from argument */
+      function greetUser(userName) {
+        return `Hello, ${userName}`;
+      }
+
+      /* Square: return the product of one number and itself */
+      function square(x) {
+        return x * x;
+      }
+
+      /* Cube: return the product of one number multiplied by its square */
+      function cube(x) {
+        return square(x) * x;
+      }
+
+      let sum = add(5, 7);
+      let diff = subtract(9, 3);
+      let prod = multiply(3, 123);
+      let quot = divide(144, 12);
+      let remainder = modulo(8, 3);
+
+
+      console.log(multiply(add(243, 892), subtract(1042, 83)));
+
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
